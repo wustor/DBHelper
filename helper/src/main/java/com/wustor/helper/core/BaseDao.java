@@ -5,12 +5,12 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.cmyy.chuangmei.db.DBManager;
-import com.cmyy.chuangmei.db.annotation.Column;
-import com.cmyy.chuangmei.db.annotation.Table;
-import com.cmyy.chuangmei.db.util.SerializeUtil;
-import com.cmyy.chuangmei.db.util.TextUtil;
-import com.cmyy.chuangmei.db.util.Trace;
+import com.wustor.helper.DBManager;
+import com.wustor.helper.annotation.Column;
+import com.wustor.helper.annotation.Table;
+import com.wustor.helper.util.SerializeUtil;
+import com.wustor.helper.util.TextUtil;
+import com.wustor.helper.util.Trace;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
